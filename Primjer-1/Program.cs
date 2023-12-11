@@ -10,10 +10,7 @@ namespace Primjer_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
-            Console.WriteLine("Hello, world!");
-            Console.WriteLine("Hello, world!");
-            Console.WriteLine("Hello, world!");
+            var p = new Proizvod { Id = 1, Naziv = "Sladoled od čokolade" };
 
             Console.ReadLine();
         }
